@@ -24,17 +24,6 @@ public class RadioTest {
         assertEquals(100, radio.getMaxVolume());
     }
 
-    @Test
-    public void shouldUseConstructor2() {
-        Radio radio = new Radio(7, 87);
-        assertEquals(10, radio.getMaxStation());
-    }
-
-    @Test
-    public void shouldUseConstructor3() {
-        Radio radio = new Radio(7, 87);
-        assertEquals(0, radio.getMinStation());
-    }
 
 
     @Test
