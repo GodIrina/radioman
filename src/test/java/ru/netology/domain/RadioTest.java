@@ -29,6 +29,7 @@ public class RadioTest {
         Radio radio = new Radio(7, 87);
         assertEquals(10, radio.getMaxStation());
     }
+
     @Test
     public void shouldUseConstructor3() {
         Radio radio = new Radio(7, 87);
@@ -194,12 +195,10 @@ public class RadioTest {
         int expected = 0;
         int actual = cond.getMinStation();
         cond.setMinStation(0);
-        assertEquals(expected,actual);
+        assertEquals(expected, actual);
 
 
     }
-
-
 
 
     @Test
