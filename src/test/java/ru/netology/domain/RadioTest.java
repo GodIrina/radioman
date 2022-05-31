@@ -18,7 +18,6 @@ public class RadioTest {
 
     }
 
-
     @Test
     public void MinStation() {
         Radio cond = new Radio();
