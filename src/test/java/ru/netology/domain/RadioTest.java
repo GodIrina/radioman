@@ -18,13 +18,6 @@ public class RadioTest {
 
     }
 
-    @Test
-    public void shouldUseConstructor() {
-        Radio radio = new Radio(5, 16, 0, 10, 0, 100);
-        assertEquals(100, radio.getMaxVolume());
-    }
-
-
 
     @Test
     public void MinStation() {
